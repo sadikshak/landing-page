@@ -5,8 +5,21 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient( rgba(134, 135, 139, 0.7), rgba(20, 21, 26, 0.7)), url(images/background.jpg.jpg);
+    background-image: linear-gradient( rgba(223, 223, 223, 0.7), rgba(0, 42, 255, 0.7));
     background-position: center;
     background-size: cover;
     position: relative;
+}
+.nav-links{ 
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: left;
+    
+}
+.nav-links ul {
+    display: flex; /* Align items in a row */
+    padding: 0;
+    margin: 0;
+    list-style: none;
 }
