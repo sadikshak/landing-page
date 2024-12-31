@@ -10,16 +10,35 @@
     background-size: cover;
     position: relative;
 }
-.nav-links{ 
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    align-items: left;
-    
+
+
+.nav-links {
+    display: flex;  /* Use Flexbox to align the ul horizontally */
+    justify-content: space-around;  /* Add space between items */
+    align-items: center;  /* Vertically center the items */
+    background-color: #333;  /* Optional: background color for the navbar */
+    padding: 10px;  /* Optional: some padding around the navbar */
 }
+
 .nav-links ul {
-    display: flex; /* Align items in a row */
-    padding: 0;
-    margin: 0;
-    list-style: none;
+    display: flex;  /* Align list items in a row */
+    padding: 0;  /* Remove padding */
+    margin: 0;  /* Remove margin */
+    list-style: none;  /* Remove bullet points */
 }
+
+.nav-links li {
+    margin: 0 15px;  /* Add space between list items */
+}
+
+.nav-links a {
+    text-decoration: none;  /* Remove underline from links */
+    color: white;  /* White text color */
+    font-size: 18px;  /* Font size for the links */
+    font-weight: bold;  /* Bold font */
+}
+
+.nav-links a:hover {
+    color: #00aaff;  /* Change color when hovering */
+}
+
